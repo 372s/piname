@@ -1,0 +1,18 @@
+{
+    "name": "wpollen/pina",
+    "authors": [
+        {
+            "name": "王强",
+            "email": "wangqiang@medlive.cn"
+        }
+    ],
+    "require": {
+        "pinatra/framework": "~0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Controllers\\": "controllers/",
+            "Model\\": "models/"
+        }
+    }
+}
